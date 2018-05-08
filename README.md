@@ -1,18 +1,20 @@
 ﻿# ProjetoPG
                             Projeto desenvolvido para cadeira de Processamento Gráfico - IF680
-                                  Desenvolvido por: Igor Poncell
+                                          Desenvolvido por: Igor Poncell(IAFP)
                                   
                             
 
    O problema proposto foi de criar um programa que realizasse **Interpolação Linear de Curvas de Bézier num outra de mesmo grau**(2.13)
 
-  
-O usuário tem um menu onde pode alterar os parametros das curvas como, grau, interaÇões, etc que ja possuem um valor default, mas podem ser alterados.
-Após inserir os pontos clicando no front-end (cada curva de uma vez) o usuario podera remover as curvas, arrastar seus pontos, alterar os parametros ou clicar para desenhar as interpolações.
+## Ações
 
-Se o usuario deseja **alterar o grau das curvas** ele deve primeiro remove-làs do front dando **dois clicks** em qualquer ponto de cada curva. 
-O usuário pode alterar os demais valores do menu de parametros e as alterações acontecerão em **tempo real**.
+- **Click** : Insere Pontos na tela
+- **Drag** : Move o ponto selecionado pela tela
+- **Double Click** : Remove a curva do ponto clicado
 
-O usuário também pode clicar nos checkbox da area **"exibir"** onde com auxilio da *bonsai.js* os pontos, segmentos, curvas e curvas T serão escondidos ou exibidos.
+## Parâmetros 
 
-
+- **Grau da curva**: Variável que define a quantidade de pontos que serão inseridos na tela
+- **Aval. Curvas originais**: Variável número de interações para calcular as curvas originais
+- **Aval. Curvas t**: Variável número de interações para calcular as curvas t
+- **Parâmetro das curvas**: Variável número de interpolações entre as curvas
