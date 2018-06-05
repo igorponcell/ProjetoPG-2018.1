@@ -1,6 +1,6 @@
 ﻿# ProjetoPG
                             Projeto desenvolvido para cadeira de Processamento Gráfico - IF680
-                                          Desenvolvido por: Igor Poncell(IAFP)
+                                Desenvolvido por: Danilo Freitas(DVF) e Igor Poncell(IAFP)
                                   
                             
 
